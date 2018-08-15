@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DineConnect.Common.BusFactory">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAiAAAAoAAQAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Core\BusFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DineConnect.Common.AsyncSemaphore">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAgAAAAAAAAQAAAAAAABAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Core\AsyncSemaphore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DineConnect.Common.AsyncLock">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="DineConnect.Common.AsyncLock.Releaser" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Core\AsyncLock.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAEAAA=</HashCode>
+      <FileName>Core\AsyncLock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DineConnect.Common.ObservableFileSystemWatcher">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQgABAAAEAAAAAAAAgRAAIAAAAAAAAA=</HashCode>
+      <FileName>Core\ObservableFileSystemWatcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DineConnect.Common.ProcessingMessage">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAQAAAAAAAAAAQAAAAAgAAA=</HashCode>
+      <FileName>Core\ProcessingMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DineConnect.Common.QueueWatcher">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABACAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Core\QueueWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DineConnect.Common.QueueWatcherFactory">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>Core\QueueWatcherFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DineConnect.Common.RabbitMqConfiguration">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEACAAQAAAAAAACAAAABAgABAAIAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Core\RabbitMqConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DineConnect.Common.RabbitMqSettings">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAACAAACAACAQAAAAAAAAA=</HashCode>
+      <FileName>Core\RabbitMqSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DineConnect.Common.RxSchedulerService">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgACAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Core\RxSchedulerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="DineConnect.Common.QueueType">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQ=</HashCode>
+      <FileName>Core\QueueWatcherFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
